@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">IT tjänster UF</a>
+            <a class="navbar-brand" href="../index.html">IT tjänster UF</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,16 +30,57 @@
                 </ul>
             </div>
         </nav>
-
-        <div class="table">
-            <div class="thead-dark">
-                <tr>
-                    <th scope="col">It Support</th>
-                    <th scope="col">Installation av router</th>
-                    <th scope="col">FAQ</th>
-                </tr>
+        <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Första tjänst
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  Som våran första tjänst kommer vi att erbjuda en första klassig support på din dator eller din server som du har i din ägo. Vi har first och second line support som möjligör den absolut bästa supporten i norden.
+                </div>
+              </div>
             </div>
-        </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Andra tjänst
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Som vår andra tjänst erbjuder vi installation samt ihopbyggnad av din dator om du köpt delar men inte vet hur man bygger en dator, då finns vi till hand.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    tredje tjänst
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Som vår tredje tjänst erbjuder vi rådgivning i form om en FAQ om hur man ska driva företag med inrikting IT i olika utsträkningar.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="alert alert-warning" role="alert">
+              Be aware, det finns ett pris på allting :))
+          </div>
+          
+    
     </div>
 </body>
 
